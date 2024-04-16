@@ -14,7 +14,6 @@ public class OrganizadorDocumentos {
             reader.close();
             Collections.sort(lineas);
 
-            // Escribir las líneas ordenadas en un nuevo archivo
             BufferedWriter writer = new BufferedWriter(new FileWriter("documento_ordenado.txt"));
             for (String l : lineas) {
                 writer.write(l);
