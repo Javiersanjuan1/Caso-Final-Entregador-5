@@ -50,8 +50,6 @@ public class OrganizadorDocumentos {
                 lineas.add(linea);
             }
             reader.close();
-
-            // Ordenar las líneas alfabéticamente para la búsqueda binaria
             Collections.sort(lineas);
 
             // Realizar búsqueda binaria
