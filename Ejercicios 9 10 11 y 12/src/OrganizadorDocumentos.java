@@ -25,8 +25,6 @@ public class OrganizadorDocumentos {
             System.err.println("Error al leer/escribir el archivo: " + e.getMessage());
         }
     }
-
-    // Método para buscar una palabra en un archivo de texto de manera lineal
     public static boolean buscarPalabraLineal(String palabra, String nombreArchivo) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(nombreArchivo));
