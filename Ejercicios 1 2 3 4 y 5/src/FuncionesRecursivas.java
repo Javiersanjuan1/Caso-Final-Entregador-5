@@ -49,8 +49,6 @@ public class FuncionesRecursivas {
         else
             return base * calcularPotencia(base, exponente - 1);
     }
-
-    // Función para
     public static int encontrarMaximo(int[] datos) {
         return encontrarMaximoHelper(datos, datos.length - 1);
     }
