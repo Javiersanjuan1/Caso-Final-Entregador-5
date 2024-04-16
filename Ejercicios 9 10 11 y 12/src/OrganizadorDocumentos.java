@@ -12,8 +12,6 @@ public class OrganizadorDocumentos {
                 lineas.add(linea);
             }
             reader.close();
-
-            // Ordenar la lista alfabéticamente
             Collections.sort(lineas);
 
             // Escribir las líneas ordenadas en un nuevo archivo
