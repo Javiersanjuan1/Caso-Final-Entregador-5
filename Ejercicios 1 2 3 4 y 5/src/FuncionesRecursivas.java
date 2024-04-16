@@ -18,8 +18,6 @@ public class FuncionesRecursivas {
         int[] datos = {10, 5, 8, 15, 3};
         System.out.println("Máximo en el conjunto de datos: " + encontrarMaximo(datos));
     }
-
-    // Función recursiva para calcular la suma de los primeros n números naturales
     public static int calcularSumaNaturales(int n) {
         if (n == 0)
             return 0;
