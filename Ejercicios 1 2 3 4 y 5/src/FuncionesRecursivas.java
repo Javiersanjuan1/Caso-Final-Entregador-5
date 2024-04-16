@@ -39,7 +39,6 @@ public class FuncionesRecursivas {
         }
     }
 
-    // Función recursiva para calcular la potencia de un número mediante multiplicaciones sucesivas
     public static int calcularPotencia(int base, int exponente) {
         if (exponente == 0)
             return 1;
