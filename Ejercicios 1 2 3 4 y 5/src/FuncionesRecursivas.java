@@ -26,8 +26,6 @@ public class FuncionesRecursivas {
         else
             return n + calcularSumaNaturales(n - 1);
     }
-
-    // Función recursiva para listar números en un rango dado
     public static List<Integer> listarNumerosEnRango(int inicio, int fin) {
         List<Integer> numeros = new ArrayList<>();
         listarNumerosEnRangoHelper(inicio, fin, numeros);
