@@ -71,7 +71,6 @@ public class OrganizadorDocumentos {
         return false;
     }
     public static void main(String[] args) {
-        // Ejemplo de uso de los métodos
         ordenarArchivo("documento.txt");
 
         if (buscarPalabraLineal("palabra", "documento.txt")) {
