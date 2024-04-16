@@ -70,8 +70,6 @@ public class OrganizadorDocumentos {
         }
         return false;
     }
-
-    // Método principal
     public static void main(String[] args) {
         // Ejemplo de uso de los métodos
         ordenarArchivo("documento.txt");
