@@ -18,8 +18,6 @@ public class GenomicAnalyzer {
     }
 
     public static int countGenes(String dna) {
-        // Función recursiva para contar genes
-        // Utiliza "ATG" como marcador de inicio de genes
         int count = 0;
         int startIndex = dna.indexOf("ATG");
         if (startIndex == -1)
