@@ -52,7 +52,6 @@ public class OrganizadorDocumentos {
             reader.close();
             Collections.sort(lineas);
 
-            // Realizar búsqueda binaria
             int inicio = 0;
             int fin = lineas.size() - 1;
             while (inicio <= fin) {
