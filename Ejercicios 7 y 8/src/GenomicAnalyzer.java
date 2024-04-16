@@ -21,7 +21,7 @@ public class GenomicAnalyzer {
         int count = 0;
         int startIndex = dna.indexOf("ATG");
         if (startIndex == -1)
-            return 0; // No se encontró el inicio de ningún gen
+            return 0;
         else {
             int endIndex = dna.indexOf("TAG", startIndex + 3);
             if (endIndex != -1) {
