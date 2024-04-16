@@ -5,7 +5,6 @@ public class OrganizadorDocumentos {
 
     public static void ordenarArchivo(String nombreArchivo) {
         try {
-            // Leer el archivo línea por línea y almacenarlas en una lista
             BufferedReader reader = new BufferedReader(new FileReader(nombreArchivo));
             List<String> lineas = new ArrayList<>();
             String linea;
