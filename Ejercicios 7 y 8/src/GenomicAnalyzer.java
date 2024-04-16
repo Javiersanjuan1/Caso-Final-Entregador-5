@@ -32,9 +32,6 @@ public class GenomicAnalyzer {
     }
 
     public static List<String> calculateCombinations(String[] nucleotides, int length) {
-        // Algoritmo recursivo para calcular combinaciones genéticas
-        // Recibe un conjunto de nucleótidos y la longitud deseada de la combinación
-        // Retorna una lista de combinaciones genéticas
         List<String> combinations = new ArrayList<>();
         calculateCombinationsHelper(nucleotides, length, "", combinations);
         return combinations;
