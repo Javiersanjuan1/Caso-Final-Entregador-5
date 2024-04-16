@@ -4,7 +4,6 @@ import java.util.List;
 public class FuncionesRecursivas {
 
     public static void main(String[] args) {
-        // Ejemplos de uso de las funciones
         System.out.println("Suma de los primeros 5 números naturales: " + calcularSumaNaturales(5));
 
         System.out.println("Listado de números en el rango de 1 a 10:");
