@@ -41,8 +41,6 @@ public class OrganizadorDocumentos {
         }
         return false;
     }
-
-    // Método para buscar una palabra en un archivo de texto utilizando búsqueda binaria
     public static boolean buscarPalabraBinaria(String palabra, String nombreArchivo) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(nombreArchivo));
