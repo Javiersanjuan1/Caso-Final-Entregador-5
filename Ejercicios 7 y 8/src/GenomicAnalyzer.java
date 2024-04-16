@@ -4,7 +4,6 @@ import java.util.List;
 public class GenomicAnalyzer {
 
     public static void main(String[] args) {
-        // Ejemplo de uso del sistema
         String dnaSequence = "ATGCATGCTAGCTAGCTAGCTAGCATG"; // Secuencia de ADN de ejemplo
         int geneCount = countGenes(dnaSequence);
         System.out.println("Número de genes encontrados: " + geneCount);
