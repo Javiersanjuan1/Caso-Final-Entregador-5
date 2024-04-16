@@ -3,7 +3,6 @@ import java.util.*;
 
 public class OrganizadorDocumentos {
 
-    // Método para ordenar alfabéticamente las líneas de un archivo de texto
     public static void ordenarArchivo(String nombreArchivo) {
         try {
             // Leer el archivo línea por línea y almacenarlas en una lista
