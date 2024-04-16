@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FuncionesRecursivas {b
+public class FuncionesRecursivas {
 
     public static void main(String[] args) {
         // Ejemplos de uso de las funciones
@@ -50,7 +50,7 @@ public class FuncionesRecursivas {b
             return base * calcularPotencia(base, exponente - 1);
     }
 
-    // Función para encontrar el valor máximo en un conjunto de datos numéricos
+    // Función para encontrar el valor máximo en un conjunto de datos numéri
     public static int encontrarMaximo(int[] datos) {
         return encontrarMaximoHelper(datos, datos.length - 1);
     }
