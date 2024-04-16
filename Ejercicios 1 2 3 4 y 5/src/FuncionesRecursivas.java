@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FuncionesRecursivas {
+public class FuncionesRecursivas {b
 
     public static void main(String[] args) {
         // Ejemplos de uso de las funciones
